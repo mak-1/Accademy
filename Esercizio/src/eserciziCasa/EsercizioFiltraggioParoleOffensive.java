@@ -25,7 +25,7 @@ public class EsercizioFiltraggioParoleOffensive {
 
         while (matcher.find()) {
             String paroleOffensiva = matcher.group();
-            System.out.println("Il numero romano e': " + paroleOffensiva);
+            System.out.println("La parola offensiva e': " + paroleOffensiva);
             stringaUtente=stringaUtente.replace(paroleOffensiva, "*****");
 
         }
