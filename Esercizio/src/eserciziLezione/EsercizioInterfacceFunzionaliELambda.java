@@ -14,7 +14,7 @@ public class EsercizioInterfacceFunzionaliELambda {
         listaNumeri.forEach(consumer);
 
         List<String> listaStringhe = Arrays.asList("Mario","Pippo","Luigi","Davide");
-        Consumer<String> consumer2= (x) -> {if(x.startsWith("L")) System.out.println("Nome che comincia con la lettera L maiuscola nell'elenco " +x);};
+        Consumer<String> consumer2= (x) -> {if(x.startsWith("L")) System.out.println("Nome che comincia con la lettera L maiuscola nell'elenco " +  x);};
         listaStringhe.forEach(consumer2);
 
 
